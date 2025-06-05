@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Медитации от Плеяд",
+    "slug": "meditations-from-pleiades",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "pleiades",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A1128"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pleiades.meditations"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#0A1128"
+      },
+      "package": "com.pleiades.meditations"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
